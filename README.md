@@ -4,6 +4,11 @@
 
 Pair: Aseel Mustafa, Mohammed Hayder Ali
 
+## for second version
+```
+git checkout fizzbuzz2
+```
+
 ### to run file from irb
 
 . from master branch
