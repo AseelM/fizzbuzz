@@ -28,4 +28,8 @@ describe 'fizzbuzz2' do
   it 'returns "buzz" for the number 35' do
     expect(35.fizzbuzz).to eq "buzz"
   end
+
+  it 'returns 0 for the number 0' do
+      expect(0.fizzbuzz).to eq 0
+  end
 end
