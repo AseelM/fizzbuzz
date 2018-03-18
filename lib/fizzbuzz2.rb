@@ -4,7 +4,7 @@ class Integer
       "fizz"
     elsif self == 5
       "buzz"
-    elsif self == 15
+    elsif (self % 15) == 0
       "fizzbuzz"
     else
       self
