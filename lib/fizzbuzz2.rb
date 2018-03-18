@@ -2,8 +2,10 @@ class Integer
   def fizzbuzz
     if self == 3
       "fizz"
-    else
+    elsif self == 5
       "buzz"
+    else
+      "fizzbuzz"
     end
   end
 end
