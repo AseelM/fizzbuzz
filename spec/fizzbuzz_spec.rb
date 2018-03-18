@@ -37,7 +37,7 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(0)).to eq 0
   end
 
-  it 'returns "app does not process negative numbers" when passed -15' do
-    expect(fizzbuzz(-15)).to eq "app does not process negative numbers"
+  it 'returns -15 when passed -15' do
+    expect(fizzbuzz(-15)).to eq -15
   end
 end
