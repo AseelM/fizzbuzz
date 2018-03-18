@@ -1,4 +1,5 @@
 def fizzbuzz(number)
+
   if !number.is_a?(Numeric)
     "not a number"
   elsif number <= 0
@@ -12,4 +13,5 @@ def fizzbuzz(number)
   else
     number
   end
+  
 end
