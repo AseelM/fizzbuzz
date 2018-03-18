@@ -1,7 +1,10 @@
 def fizzbuzz(number)
-  if number == 3
-    return "fizz"
+  case number
+  when 3
+    'fizz'
+  when 5
+    'buzz'
   else
-    return "buzz"
+    'fizzbuzz'
   end
 end
