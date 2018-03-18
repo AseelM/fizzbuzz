@@ -1,6 +1,7 @@
 require "fizzbuzz2"
 
 describe 'fizzbuzz2' do
+
   it 'returns "fizz" for the number 3' do
     expect(3.fizzbuzz).to eq 'fizz'
   end
@@ -30,10 +31,11 @@ describe 'fizzbuzz2' do
   end
 
   it 'returns 0 for the number 0' do
-      expect(0.fizzbuzz).to eq 0
+    expect(0.fizzbuzz).to eq 0
   end
 
   it 'returns -6 for the number -6' do
-      expect(-6.fizzbuzz).to eq -6
+    expect(-6.fizzbuzz).to eq -6
   end
+  
 end
