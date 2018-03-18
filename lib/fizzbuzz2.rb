@@ -1,6 +1,6 @@
 class Integer
   def fizzbuzz
-    if self == 0
+    if self <= 0
       self
     elsif (self % 15) == 0
       "fizzbuzz"
