@@ -32,4 +32,8 @@ describe 'fizzbuzz2' do
   it 'returns 0 for the number 0' do
       expect(0.fizzbuzz).to eq 0
   end
+
+  it 'returns -6 for the number -6' do
+      expect(-6.fizzbuzz).to eq -6
+  end
 end
